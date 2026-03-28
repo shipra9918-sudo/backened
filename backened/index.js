@@ -13,6 +13,6 @@ app.get('/',(req,res)=>
 })
 app.get('/about',(req,res)=>
 {
-    res.send("this is about page")
+    res.send("this is about section")
 })
 app.listen(3000 )
